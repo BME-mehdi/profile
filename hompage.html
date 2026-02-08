@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <span class="logo" aria-hidden="true">M</span>
+                <a class="site-name">Mehdi</a>
+            </div>
+            <nav class="main-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="website.html">Website</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero" aria-label="Introduction">
+            <div class="hero-content">
+                <h1>Hi — I’m Mehdi</h1>
+                <p class="lead">Biomedical engineering student and software developer. I build small tools and learn new technologies.</p>
+                <div class="hero-actions">
+                    <button id="cta" class="btn" type="button">Say Hello</button>
+                    <a class="btn btn-ghost" href="website.html">See My Work</a>
+                </div>
+            </div>
+            <figure class="hero-visual" aria-hidden="true">
+                <figcaption class="visually-hidden">Decorative illustration</figcaption>
+            </figure>
+        </section>
+
+        <div class="grid">
+            <article id="about" class="card about" aria-labelledby="about-heading">
+                <h2 id="about-heading">About Me</h2>
+                <p>My name is Mehdi and I am a biomedical engineering student. I enjoy learning new programming languages and working on interesting projects.</p>
+            </article>
+
+            <aside id="contact" class="card contact" aria-labelledby="contact-heading">
+                <h2 id="contact-heading">Contact</h2>
+                <address>
+                    <p>Email: <a href="mailto:elaissi.mehdi.official@gmail.com">elaissi.mehdi.official@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+21690467006">+216 90467006</a></p>
+                </address>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <small>&copy; <time datetime="2026">2026</time> Mehdi. All rights reserved.</small>
+        </div>
+    </footer>
+</body>
+</html>
